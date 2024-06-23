@@ -1,0 +1,34 @@
+video {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+
+#btn {
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    filter: brightness(1.2);
+}
+
+.option {
+    text-align: center;
+}
+
+.timer {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.timer span {
+    font-weight: 800;
+}
